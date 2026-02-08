@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATAGUL IDE - Türkçe Programlama Dili</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        color: #fff;
+        background: linear-gradient(120deg, #f6d365, #fda085, #a18cd1, #fbc2eb);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        overflow: hidden;
+    }
+
+    @keyframes gradientBG {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+    }
+
+    .container {
+        position: relative;
+        z-index: 10;
+        padding: 50px;
+        max-width: 900px;
+        margin: auto;
+        background: rgba(0,0,0,0.4);
+        border-radius: 20px;
+        box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    h2 {
+        margin-top: 30px;
+        color: #ffe;
+    }
+
+    h3 {
+        margin-top: 20px;
+        color: #ffd700;
+    }
+
+    p, li, pre {
+        line-height: 1.6;
+        font-size: 1rem;
+    }
+
+    pre {
+        background: rgba(255,255,255,0.1);
+        padding: 10px;
+        border-radius: 10px;
+        overflow-x: auto;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    /* Emoji / şekil animasyonu arka plan */
+    .emoji {
+        position: absolute;
+        font-size: 2rem;
+        animation: floatEmoji linear infinite;
+        user-select: none;
+    }
+
+    @keyframes floatEmoji {
+        0% {transform: translateY(100vh) translateX(0) rotate(0deg); opacity: 1;}
+        100% {transform: translateY(-10vh) translateX(50vw) rotate(360deg); opacity: 0;}
+    }
+</style>
+</head>
+<body>
+
+<!-- Arka planda uçan animasyonlu şekiller -->
+<div class="emoji" style="left:5vw; animation-duration:6s;">✨</div>
+<div class="emoji" style="left:20vw; animation-duration:8s;">🎉</div>
+<div class="emoji" style="left:35vw; animation-duration:7s;">💫</div>
+<div class="emoji" style="left:50vw; animation-duration:9s;">🌟</div>
+<div class="emoji" style="left:65vw; animation-duration:5s;">🌀</div>
+<div class="emoji" style="left:80vw; animation-duration:6s;">🎇</div>
+<div class="emoji" style="left:90vw; animation-duration:10s;">✨</div>
+
+<div class="container">
+    <h1>ATAGUL IDE - TÜRKÇE proglamla dili</h1>
+
+    <p>ATAGUL IDE, ATAGUL GAMES tarafından geliştirilen sadece TÜRKÇE komutlar ile çalışan tümleşik geliştirme uygulamasıdır.</p>
+
+    <h2>ATAGUL IDE nedir?</h2>
+    <p>ATAGUL IDE, TÜRKÇE proglamla dili ve Tümleşik geliştirme uygulamasıdır...</p>
+
+    <h2>ATAGUL IDE kim tasarladı?</h2>
+    <p>ATAGUL IDE, Ahmet Mete Atagül (ATAGUL GAMES'in CEO’su) tarafından tasarlandı ve 2026 yılında ATAGUL GAMES tarafından yayınlandı.</p>
+
+    <h2>ATAGUL IDE resmî indirme platformları</h2>
+    <ul>
+        <li><strong>Microsoft Store:</strong> <a href="https://apps.microsoft.com/detail/xp88wwzglkwb0g?hl=tr-TR&gl=TR" target="_blank">Link</a></li>
+        <li><strong>Itch.io:</strong> <a href="https://atagul-games.itch.io/atagulide" target="_blank">Link</a></li>
+        <li><strong>GameJolt:</strong> <a href="https://gamejolt.com/games/atagulide/1041040" target="_blank">Link</a></li>
+    </ul>
+
+    <h2>ATAGUL IDE’da bilinmesi gereken temel kod blokları</h2>
+
+    <h3>ata:</h3>
+    <p>Bu komut sayıları veya değişkenleri belirtmek için kulanılır.</p>
+    <pre>ata x = 100
+ata y = 50</pre>
+
+    <h3>eger:</h3>
+    <p>Bu komut bir koşul doğruysa bir işlemi çalıştırmak için kulanılır.</p>
+    <pre>ata x = 100
+ata y = 50
+ata çarpma = x*y
+eger çarpma &lt;100:</pre>
+
+    <h3>yaz:</h3>
+    <p>Bu komut ekrana yazı veya değer göstermek için kullanılır.</p>
+    <pre>ata x = 100
+ata y = 50
+ata çarpma = x*y
+eger çarpma &lt;100:
+yaz "100'den küçük"</pre>
+
+    <h3>bitir:</h3>
+    <p>Bu komut programı tamamen durdurmak / sonlandırmak için kulanılır.</p>
+    <pre>ata x = 100
+ata y = 50
+ata çarpma = x*y
+eger çarpma &lt;100:
+yaz "100'den küçük"
+bitir</pre>
+
+    <p>Bunları bilmeniz yeterlidir.</p>
+
+    <h2>ATAGUL IDE örnek kodlar</h2>
+
+    <h3>1. ÖRNEK:</h3>
+    <pre>ata x = 100
+ata y = 50
+ata çarpma = x*y
+eger çarpma &lt;100:
+yaz "100'den küçük"
+bitir</pre>
+
+    <h3>2. ÖRNEK:</h3>
+    <pre>ata x = 100
+ata y = 50
+ata çarpma = x*y
+eger çarpma &lt;100:
+yaz "100'den küçük"
+bitir
+eger çarpma &gt;100:
+yaz "100'den büyük"
+bitir</pre>
+
+    <p>©2026 ATAGUL GAMES</p>
+</div>
+
+</body>
+</html>
